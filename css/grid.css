@@ -33,3 +33,29 @@ body>main {
 .minHeight {
     min-height: 80vh;
 }
+
+.cols-tall {
+    height: 600px;
+    color: white;
+}
+
+.cols-normal {
+    height: 300px;
+    color: white;
+}
+
+.cols-tall.bg-dark {
+    background-color: black;
+}
+
+.cols-tall.bg-grey {
+    background-color: darkslategrey;
+}
+
+.cols-normal.bg-dark {
+    background-color: black;
+}
+
+.cols-normal.bg-grey {
+    background-color: darkslategrey;
+}
